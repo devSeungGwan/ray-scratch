@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "study-for-ray"
+version = "0.1.0"
+description = ""
+authors = ["송승관 <yanhis97531@gmail.com>"]
+readme = "README.md"
+packages = [{include = "study_for_ray"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
