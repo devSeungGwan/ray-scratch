@@ -8,6 +8,9 @@ packages = [{include = "study_for_ray"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+ray = "^2.4.0"
+numpy = "^1.24.3"
+opencv-python = "^4.7.0.72"
 
 
 [build-system]
